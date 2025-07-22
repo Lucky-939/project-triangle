@@ -1,0 +1,122 @@
+.project-sale-container {
+  padding: 2rem;
+  background-color: #f8f9fa;
+  font-family: 'Segoe UI', sans-serif;
+  min-height: 100vh;
+}
+
+h1 {
+  text-align: center;
+  color: #145858;
+  margin-bottom: 2rem;
+}
+
+.project-form {
+  max-width: 720px;
+  margin: auto;
+  background: #fff;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="file"],
+textarea {
+  width: 100%;
+  padding: 0.6rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #fdfdfd;
+}
+
+.generate-btn {
+  background: linear-gradient(135deg, #ffc94b, #fcbf3f);
+  color: #1e1e1e;
+  padding: 0.7rem 1.2rem;
+  margin-left: 100px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  width: 250px;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.generate-btn:hover {
+  background: linear-gradient(135deg, #fcbf3f, #ffb42c);
+}
+
+.supplementary-section {
+  margin-top: 2rem;
+}
+
+.supplementary-section h3 {
+  margin-bottom: 1.2rem;
+  color: #145858;
+}
+
+.supplementary-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.price-container {
+  min-width: 140px;
+}
+
+.price-input {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.submit-btn {
+  background-color: #145858;
+  color: white;
+  padding: 0.8rem 2rem;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  width: 100%;
+  margin-top: 2rem;
+  transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+  background-color: #0c3b3b;
+}
+
+.row-align {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.half-width {
+  flex: 1;
+}
+
+.align-bottom {
+  display: flex;
+  align-items: flex-end;
+}
